@@ -1,0 +1,58 @@
+{
+  "cellars": [
+    {
+      "id": 1,
+      "name": "Bodega Principal de Tintos",
+      "wineType": "reds",
+      "capacity": 200
+    },
+    {
+      "id": 2,
+      "name": "Reserva de Blancos",
+      "wineType": "whites",
+      "capacity": 150
+    },
+    {
+      "id": 3,
+      "name": "Colección de Espumantes",
+      "wineType": "sparkling",
+      "capacity": 100
+    },
+    {
+      "id": 4,
+      "name": "Selección Rosé",
+      "wineType": "rose",
+      "capacity": 50
+    }
+  ],
+  "storage-items": [
+    {
+      "id": 1,
+      "cellarId": 1,
+      "wineType": "reds",
+      "wineId": 1,
+      "wineName": "Merlot Classic",
+      "quantity": 25,
+      "registeredAt": "2026-10-10T14:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "cellarId": 1,
+      "wineType": "reds",
+      "wineId": 2,
+      "wineName": "Cabernet Sauvignon Gran Reserva",
+      "quantity": 15,
+      "registeredAt": "2026-10-11T10:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "cellarId": 2,
+      "wineType": "whites",
+      "wineId": 5,
+      "wineName": "Chardonnay Premium",
+      "quantity": 10,
+      "registeredAt": "2026-10-12T09:15:00.000Z"
+    }
+  ],
+  "users": []
+}
